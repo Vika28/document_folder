@@ -1,0 +1,54 @@
+.wrapper {
+  width: 500px;
+  display: flex;
+  padding: 10px;
+  justify-content: space-between;
+  border: 1px solid black;
+  font-size: 14px;
+
+}
+.editBtn {
+  background-color: transparent;
+  border: none;
+}
+.editBtn:hover {
+  cursor: pointer;
+}
+.editImg {
+  width: 20px;
+  height: 20px;
+}
+.removeBtn {
+  background-color: transparent;
+  border: none;
+}
+.removeBtn:hover {
+  cursor: pointer;
+}
+.removeImg {
+  width: 20px;
+  height: 20px;
+}
+.icon:hover path {
+  fill: lightgray;
+}
+.icon:hover path {
+  fill: #fac300;
+}
+.docName {
+  width: 25%;
+  white-space: nowrap; /* Текст не переносится */
+  overflow: hidden; /* Обрезаем всё за пределами блока */
+  text-overflow: ellipsis;
+}
+.docDate {
+  width: 25%;
+}
+.docRate {
+  width: 25%;
+}
+.btnsWrapper {
+  display: flex;
+  justify-content: center;
+  width: 15%;
+}
